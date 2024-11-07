@@ -1,0 +1,145 @@
+*{box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
+    align-items:center;
+}
+
+.menu_web
+{
+    width:98%;
+    height:50px;
+    background-color: beige;
+    margin:0 auto;
+
+}
+.root li
+{
+   list-style: none;
+   float :left;
+   position :relative;
+   display:block;
+   font-weight: bold;
+
+}
+.root li a
+{
+    text-decoration: none;
+    color:cadetblue;
+    padding : 0 10px 0 15px;
+    line-height: 50px;
+    display: block;
+
+    
+}
+.root li a:hover{
+    color: #f5a512;
+    background-color: aquamarine;
+}
+.submenu{
+    color: antiquewhite;
+    background-color: #f5a512;
+    width: 200px;
+    min-height: 80px;
+    position:absolute;
+    display: none;
+
+}
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a {
+    line-height: 40px;
+}
+.submenu li a :hover{
+    text-decoration: none;
+    text-transform: none;
+    color: darkcyan;
+    display: block;
+    border:  1px solid #f5a512;
+    text-indent: 10px;
+    line-height: 40px;
+}
+.root>li:hover .submenu {
+    background-color:#c94a98;
+    color: #fff;
+    transition: ease-in 0.30;
+    display: block;
+}
+.submenu li a:hover {
+    background-color:#fff;
+    color:rgb(218, 67, 160);
+    transition: ease-in 0.40;
+}
+.feedback-form {
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+  .Anhcanhan {
+    width: 50%;
+    margin: 50px ;
+    background-color: burlywood;
+    padding: 20%;
+    border-radius: 8px;
+    box-shadow: #fff;
+
+  }
+  h3{
+    text-align: center;
+    color: red;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  .Anhsanpham{
+    text-align: center;
